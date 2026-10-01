@@ -20,7 +20,10 @@ settings, Google and its advertising partners may process information such as
 IP address, device or advertising identifiers, ad interactions and diagnostic
 information to provide, secure and measure advertising. Ami64Vault uses
 Google's consent flow where required and provides an advertising privacy entry
-point when the consent platform requires one.
+point when the consent platform requires one. Ami64Vault requests only
+non-personalized ads, removes Android advertising-ID and AdServices
+permissions, disables Google's Android publisher first-party ID and disables
+the iOS same-app key. The app does not request Apple's tracking permission.
 
 The app shows no banner ads. It may show a full-screen ad only after a user
 leaves a game, with a limit of two ads per local calendar day and at least 30
