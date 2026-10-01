@@ -13,15 +13,35 @@ describes the current version of the app for iOS and Android.
 
 ## Data collection
 
-Ami64Vault does not create user accounts and does not collect, sell or share
-personal data. The current version contains no advertising SDK, analytics SDK
-or tracking technology.
+Ami64Vault does not create user accounts, operate an analytics service or send
+the user's game library to the developer. The free version includes Google
+Mobile Ads. Depending on the user's region, consent choices and device
+settings, Google and its advertising partners may process information such as
+IP address, device or advertising identifiers, ad interactions and diagnostic
+information to provide, secure and measure advertising. Ami64Vault uses
+Google's consent flow where required and provides an advertising privacy entry
+point when the consent platform requires one.
+
+The app shows no banner ads. It may show a full-screen ad only after a user
+leaves a game, with a limit of two ads per local calendar day and at least 30
+minutes between ads. No ad is shown inside the emulator, during import or
+during firmware setup. A non-consumable in-app purchase permanently removes
+advertising on the store platform where it was purchased.
+
+Apple App Store or Google Play processes purchases and may process account,
+payment, transaction and device information under its own privacy policy.
+Ami64Vault receives the purchase result needed to unlock the ad-free feature;
+the developer does not receive the user's payment-card details.
 
 ## Data stored on the device
 
 Imported game files, firmware files, display names, library preferences and
 emulator save data are stored locally in the app's private device storage.
 They are not uploaded to the developer.
+
+The app also stores the ad-free entitlement, completed-session counter, daily
+ad counter and last-ad time locally. These values enforce the advertising
+limit and are not uploaded to the developer.
 
 When the user explicitly exports a library backup, Ami64Vault writes a ZIP to
 the location selected by the user. That ZIP contains game files, multi-disk
@@ -49,7 +69,9 @@ policy. Ami64Vault verifies the exact file sizes and SHA-256 checksums before
 installing the files locally.
 
 Ami64Vault does not operate a backend service and the app developer does not
-receive a copy of any downloaded file, URL or request.
+receive a copy of any downloaded file, URL or request. Network access is also
+used to request consent information and advertising from Google and to connect
+to Apple App Store or Google Play for purchases and purchase restoration.
 
 ## File access
 
@@ -60,13 +82,14 @@ Ami64Vault does not scan unrelated files.
 
 ## Children
 
-Ami64Vault does not knowingly collect personal information from children or
-from any other user.
+Ami64Vault is not directed to children. The developer does not knowingly
+collect personal information from children. Advertising and store providers
+may require additional age or audience configuration before publication.
 
 ## Changes
 
-This policy will be updated before adding accounts, cloud sync, advertising,
-analytics or any other feature that changes the app's data handling.
+This policy will be updated before adding accounts, cloud sync, analytics or
+any other feature that changes the app's data handling.
 
 ## Contact
 
