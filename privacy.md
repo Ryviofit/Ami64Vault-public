@@ -6,7 +6,7 @@ permalink: /privacy/
 
 # Ami64Vault Privacy Policy
 
-Last updated: October 1, 2026
+Last updated: October 2, 2026
 
 Ami64Vault is a local-first game library and emulator frontend. This policy
 describes the current version of the app for iOS and Android.
@@ -25,11 +25,12 @@ non-personalized ads, removes Android advertising-ID and AdServices
 permissions, disables Google's Android publisher first-party ID and disables
 the iOS same-app key. The app does not request Apple's tracking permission.
 
-The app shows no banner ads. It may show a full-screen ad only after a user
-leaves a game, with a limit of two ads per local calendar day and at least 30
-minutes between ads. No ad is shown inside the emulator, during import or
-during firmware setup. A non-consumable in-app purchase permanently removes
-advertising on the store platform where it was purchased.
+The app shows no banner ads. After four completed game sessions, it may show a
+full-screen ad before the next game starts, with a limit of two ads per local
+calendar day and at least 30 minutes between ads. No ad is shown inside the
+emulator, during import or during firmware setup. A non-consumable in-app
+purchase permanently removes advertising on the store platform where it was
+purchased.
 
 Apple App Store or Google Play processes purchases and may process account,
 payment, transaction and device information under its own privacy policy.
